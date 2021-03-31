@@ -1,0 +1,100 @@
+.body {
+    background-color: #f4f4f4;
+}
+
+/* button styles */
+.a-style {
+    color: #fff;    
+    height: 3vh;
+    display: contents;
+}
+
+.a-style:hover {
+    color: #fff;
+}
+
+.btn-outline-secondary {
+    border: 1px solid #ced4da;
+} 
+
+/* text styles */
+h4 {
+    color: rgb(216, 216, 216);
+    
+    font-weight: 400;
+}
+
+/* card styles*/
+.card {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1.0);
+    border-radius: 0rem;
+}
+
+
+/* form styles */
+.form-shadow {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1.0);
+    border-radius: .25rem;
+}
+
+.custom-width {
+    width: 25%;
+}
+
+@media (max-width: 992px) {
+    .custom-width {
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-width {
+        width: 100%;
+    }
+}
+ 
+/* search bar styles */
+.search {
+    background-color: #212529;
+    border: 1px solid #212529;
+}
+
+.search-btn-style {
+    color: #fff;
+    background-color: #6c757d;
+    border: 1px solid #6c757d;
+}
+
+
+/* nav styles */
+.nav-shadow {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1.0);
+}
+
+/* banner styles */
+.banner {
+    padding-top: 1rem;
+    width: 30wh;
+    height: 15vh;
+    color: #fff;
+    background: #111111;
+    background-size: 400% 400%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1.0);
+}
+
+.product-img {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1.0);    
+}
+
+/* Cart badge */
+.cart-badge, .cart-badge:hover {
+    border-radius: 50%;
+    padding: 0.2rem;
+    font-size: 10px;
+    margin-left: 0.1rem;
+    background: #111111;
+}
+
+
+
+ 
